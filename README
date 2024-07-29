@@ -1,0 +1,30 @@
+# Canvas Group name: Group 47
+# Group leader:  Thuy Linh (Kylie) Le (thuylinh1@student.unimelb.edu.au)
+# Members: Ngoc Minh Pham (ngocminhp@student.unimelb.edu.au), Ngoc Minh Vu (ngocminhv1@student.unimelb.edu.au), 
+Tung Lam Le (tunglaml@student.unimelb.edu.au)
+
+# Introduction of intended use for code and csv data files
+
+# File structure and use of each file
+The package contains 2 code folders:
+- The plots_generate folder generates all plots used in the report. It runs on a single train_data.csv that was 
+extracted from the original dataset (80% of the rows from the pre-processed dataset was randomly chosen). 
+- The k_fold_CV folder perform all necessary operations to generate evaluation scores. No plot is generated from 
+this code file to avoid unnecessary operations that may cause timeout error. 
+
+Each folder contains 4 code files:
+- main.py
+- pre_processs.py
+- feature_select.py
+- modelling.py
+The files in each folders are slightly modified to fit the folder's objective.
+
+# Instructions on how to run your code.
+- To generate the plots, open the terminal and enter the following commands:
+    cd /home/plots_generate
+    python main.py
+- To generate evaluation scores, open the terminal and enter the following commands:
+    cd /home/k_fold_CV
+    python main.py
+
+# Any additional requirements needed to run code.

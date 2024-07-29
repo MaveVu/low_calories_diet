@@ -1,0 +1,4 @@
+,10-fold CV Train R-squared,10-fold CV Test R-squared,10-fold CV MSE (scaled)
+Linear model 1,0.686,-0.089,0.041
+Linear model 2,0.308,0.261,0.029
+Regression Tree,n/a,n/a,0.021
